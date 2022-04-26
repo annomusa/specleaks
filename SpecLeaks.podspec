@@ -25,6 +25,6 @@ Pod::Spec.new do |s|
   s.source_files = 'SpecLeaks/Classes/**/*'
   
   s.frameworks = 'UIKit', 'XCTest'
-  s.dependency 'Quick', '>= 5.0.0'
+  s.dependency 'Quick', '>= 5.0.1'
   s.dependency 'Nimble', '>= 9.0.0'
 end
